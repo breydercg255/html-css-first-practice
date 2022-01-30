@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&family=Kanit:wght@300&family=Supermercado+One&display=swap");
+body {
+  background-color: #334756;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+body,
+a:hover {
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: #f0a500;
+  font-family: "Josefin Sans", sans-serif;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+a {
+  color: #f037a5;
+  font-family: "Supermercado one", sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  background-color: #f54748;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+li p {
+  border-left: 2px solid;
+  border-color: #fff;
+  padding-left: 10px;
+}
+header,
+footer {
+  text-align: center;
+}
+main,
+header,
+footer {
+  padding: 20px;
+}
+main {
+  background-color: #082032;
+  border: 3px solid;
+  border-radius: 10px;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.35);
+  transition: 0.3s;
+}
+main:hover {
+  transform: scale(1.03);
+}
+footer {
+  background-color: #f0a500;
+  margin-top: 50px;
+}
+.html-css-img {
+  animation: glow 3s infinite;
+  border: 2px dashed #f0a500;
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+}
+.whole-page-div, #download {
+    width: 55%;
+}
+.whole-page-div {
+  margin: 0 auto 50px;
+}
+.html-text {
+  border-bottom: 2px solid #e34c26;
+  color: #e34c26;
+}
+.css-text {
+  border-bottom: 2px solid #0f5298;
+  color: #2565ae;
+}
+.highlight-html-summary,
+.highlight-css-summary {
+  border-left: 3px solid;
+  padding-left: 10px;
+}
+.highlight-html-summary {
+  border-left-color: #e34c26;
+}
+.highlight-css-summary {
+  border-left-color: #0f5298;
+}
+.summary-btn {
+  background-color: #c6ffc1;
+  color: #34656d;
+  padding: 15px;
+  text-align: center;
+}
+#download {
+  margin: 0 auto;
+  text-align: center;
+}
+@keyframes glow {
+  from {
+    background-color: #343f56;
+    box-shadow: -5px -5px 5px #e34c26, 5px 5px 5px #0f5298;
+  }
+  to {
+    background-color: #4d5e81;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.418);
+    transform: scale(0.97);
+  }
+}
+@media (max-width: 992px) {
+  p {
+    text-align: justify;
+  }
+  .whole-page-div, #download {
+    width: 85%;
+  }
+}
+@media (max-width: 560px) {
+  .html-css-img {
+    width: 70%;
+  }
+}
