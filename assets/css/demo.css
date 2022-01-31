@@ -38,6 +38,7 @@ a {
 }
 a:hover {
   background-color: #f54748;
+  padding: 0 5px;
 }
 ul,
 ol {
@@ -84,6 +85,9 @@ footer {
 .whole-page-div {
   margin: 0 auto 50px;
 }
+.important-text {
+  font-weight: bold;
+}
 .html-text {
   border-bottom: 2px solid #e34c26;
   color: #e34c26;
@@ -108,6 +112,9 @@ footer {
   color: #34656d;
   padding: 15px;
   text-align: center;
+}
+.summary-btn:hover {
+  padding: 15px;
 }
 #download {
   margin: 0 auto;
